@@ -22,7 +22,8 @@ navbar-links:
   About Me: "aboutme"
   Test: https://drdad0217.github.io/ThePoshDad/Test/
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Powershell: https://drdad0217.github.io/ThePoshDad/Powershell/
+    - Posh: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   
 
