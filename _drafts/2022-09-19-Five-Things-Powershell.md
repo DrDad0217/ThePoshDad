@@ -18,3 +18,16 @@ categories: Powershell
 * Arrays
 * Switch
 
+### Using Parentheses
+
+Using parentheses can be helpful in numerous situations, for example have you ever ran something similar to this?
+```powershell
+$Computers = Get-Content 'C:\Computerlist.txt'
+Restart-Computer -Computername $Computers
+# We can acheive the same results by using parentheses
+Restart-Computer -Computername (Get-Content 'C:\Computerlist.txt')
+```
+By including the parentheses you are telling Powershell to load the content surrounded by them first, by the time Restart-Computer goes to read the data from the -Computername parameter all of the machine names have already been loaded.
+
+
+
