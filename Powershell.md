@@ -8,3 +8,5 @@ title: Powershell
 ### Blogs :computer:
 - [Dave's Technical Journal](https://thedavecarroll.com/)
 - [Jeff Hicks Lonely Administrator](https://jdhitsolutions.com/blog/)
+### Podcasts
+- [PDQ Powershell Podcast](https://open.spotify.com/show/08oAx47WmB8tdwoUazQoQ1?si=60b9417a9add49b5) :radio:
