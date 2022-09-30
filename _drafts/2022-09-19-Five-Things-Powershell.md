@@ -35,7 +35,7 @@ By including the parentheses you are telling Powershell to load the content surr
 ```
 ![alt text](/assets/img/Five-Things-Posh-Screenshot01.png)
 
-## Errors & Exceptions
+
 
 
 
