@@ -35,6 +35,14 @@ By including the parentheses you are telling Powershell to load the content surr
 ```
 ![alt text](/assets/img/Five-Things-Posh-Screenshot01.png)
 
+Here is another example I use quite often when want to involve thresholds of time or a specific date
+
+```powershell
+(Get-date).AddDays(-365)
+```
+![alt text](/assets/img/Five-Things-Posh/Get-Date-Example01.png)
+
+
 
 
 
