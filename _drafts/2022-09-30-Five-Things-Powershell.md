@@ -38,14 +38,23 @@ By including the parentheses you are telling Powershell to load the content surr
 Here is another example I use quite often when want to involve thresholds of time or a specific date. 
 
 ```powershell
-#With a variable
+# Using a variable
 $Date = Get-Date
 $Date.AddDays(-365)
 
-#Using parenthesis
+# Using parenthesis
 (Get-date).AddDays(-365)
+
 ```
+
 ![alt text](/assets/img/Five-Things-Posh/Get-Date-Example-01.png)
+
+Here is a real use case scenario with the previous example
+```powershell
+# Real Use case scenario
+Get-WinEvent -logName 'system' | Where {$_.Timecreated -gt (get-date).AddDays(-1)}
+```
+![alt text](/assets/img/Five-Things-Posh/Get-Date-Example-02.png)
 
 Wrapping the parenthesis around Get-Date allows me to access the method straight away. My best advice would be to try some combinations out yourself, you would be surprised to find out what you can achieve with less code. In the long run this not only makes your code easier to read and write but also debug. 
 
