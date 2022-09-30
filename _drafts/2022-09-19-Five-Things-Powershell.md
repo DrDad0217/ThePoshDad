@@ -16,6 +16,7 @@ categories: Powershell
 * PScustomobject
 * Hash Tables (Nested too?)
 * Arrays
+* Errors and Exception handling
 * Switch
 
 ### Using Parentheses
@@ -27,7 +28,18 @@ Restart-Computer -Computername $Computers
 # We can acheive the same results by using parentheses
 Restart-Computer -Computername (Get-Content 'C:\Computerlist.txt')
 ```
-By including the parentheses you are telling Powershell to load the content surrounded by them first, by the time Restart-Computer goes to read the data from the -Computername parameter all of the machine names have already been loaded.
+By including the parentheses you are telling Powershell to load the content surrounded by them first, by the time Restart-Computer goes to read the data from the -Computername parameter all of the machine names have already been loaded. Here is an example I run whenever I want to inspect ***Just*** the parameters of the command
+
+```powershell
+(Get-command Get-Process).Parameters
+```
+![alt text](/assets/img/Five-Things-Posh-Screenshot01.png)
+
+## Errors & Exceptions
+
+
+
+
 
 
 
