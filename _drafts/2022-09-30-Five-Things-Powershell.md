@@ -33,7 +33,7 @@ By including the parentheses you are telling Powershell to load the content surr
 ```powershell
 (Get-command Get-Process).Parameters
 ```
-![alt text](/assets/img/Five-Things-Posh-Screenshot01.png)
+![alt text](/assets/img/Five-Things-Posh-Screenshot-01.png)
 
 Here is another example I use quite often when want to involve thresholds of time or a specific date. 
 
