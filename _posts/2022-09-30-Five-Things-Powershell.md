@@ -2,7 +2,7 @@
 layout: post
 title:  "Five things I wish I would of learned sooner in Powershell"
 date:   2022-08-31 19:03:31 +0000
-categories: Powershell
+categories: :jack_o_lantern: Powershell :jack_o_lantern:
 ---
 * Snacking with Penny :baby:
 * Using Parentheses 
