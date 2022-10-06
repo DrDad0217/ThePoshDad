@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Powershell
+title: :jack_o_lantern: Powershell :jack_o_lantern:
 ---
 ### Books :books:
 - [Powershell In Month Of Lunches Fourth Edition](https://www.manning.com/books/learn-powershell-in-a-month-of-lunches)
